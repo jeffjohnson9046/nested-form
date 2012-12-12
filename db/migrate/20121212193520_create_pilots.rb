@@ -8,6 +8,6 @@ class CreatePilots < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :pilots, :ship_id
+    add_index :pilots, :ship_id, { :name => "ix_pilots_ships" }
   end
 end
