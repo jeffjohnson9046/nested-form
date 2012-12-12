@@ -1,0 +1,36 @@
+<div id="new-pilot-fields" class="modal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Add a Pilot<%= " to the #{ @ship.name } Pilot Roster" unless @ship.name.nil? %></h3>
+  </div>
+  <div class="modal-body">
+    <fieldset>
+      <div class="control-group">
+        <%= f.label(:first_name, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:first_name, :class => "input-xlarge") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:last_name, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:last_name, :class => "input-xlarge") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:call_sign, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:call_sign, :class => "input-xlarge") %>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div class="modal-footer">
+    <button id="addButton" type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Add</button>
+    <button id="cancelButton" type="button" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <%#= link_to("Add", :data => { :remote => true, :dismiss => "modal" }, :html => { :class => "btn btn-primary" }) %>
+    <%#= link_to("Cancel", :data => { :remote => true, :dismiss => "modal" }, :html => { :class => "btn btn-inverse" }) %>
+  </div>
+</div>

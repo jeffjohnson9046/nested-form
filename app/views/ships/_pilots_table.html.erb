@@ -1,0 +1,23 @@
+<table class="table table-hover table-striped">
+  <thead>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Call Sign</th>
+  <th></th>
+  </thead>
+  <tbody>
+    <%= f.fields_for(:pilots) do |pilots_form| %>
+      <tr class="fields">
+        <td><%= pilots_form.text_field(:first_name) %></td>
+        <td><%= pilots_form.text_field(:last_name) %></td>
+        <td><%= pilots_form.text_field(:call_sign) %></td>
+        <% if current_page?(new_ship_path) || current_page?(edit_ship_path) %>
+            <td>
+              <%= pilots_form.hidden_field(:_destroy) %>
+              <%= link_to_remove_fields("Remove", pilots_form) %>
+            </td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

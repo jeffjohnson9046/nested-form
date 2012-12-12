@@ -1,0 +1,53 @@
+<%= form_for(@ship, :html => {:class => "form form-horizontal"}) do |f| %>
+    <fieldset>
+      <legend><%= "#{ @ship.name } " unless @ship.name.nil?  %>Ship Information</legend>
+      <div class="control-group">
+        <%= f.label(:name, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:name, :class => "input-xlarge") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:crew, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:crew, :class => "input-xlarge") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:has_astromech, :class => "control-label") %>
+        <div class="controls">
+          <%= f.check_box(:has_astromech, :class => "checkbox") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:speed, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_field(:speed, :class => "input-xlarge") %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <%= f.label(:armament, :class => "control-label") %>
+        <div class="controls">
+          <%= f.text_area(:armament, :class => "input-xlarge", :rows => "3") %>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pilots <%= "That Fly the  #{ @ship.name }" unless @ship.name.nil? %></legend>
+      <%= render('pilots_table', :f => f) if @ship.pilots.any? %>
+      <%= link_to_add_fields("Add a Pilot", f, :pilots, :class => "btn btn-primary") %>
+      <p>
+
+      </p>
+    </fieldset>
+
+    <div class="modal-footer">
+      <%= f.submit("Save", :class => "btn btn-primary") %>
+      <%= link_to("Cancel", ships_path, :confirm => "Are you sure you want to cancel?  Any changes will be lost.", :class => "btn btn-inverse") %>
+    </div>
+<% end %>

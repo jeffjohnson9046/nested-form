@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>NestedForm</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <head>
+    <title>Starfighter Recognition Guide:  Nested Form Demo</title>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span10">
+          <%= render('layouts/messages') %>
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+  </body>
+
   <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
 </html>

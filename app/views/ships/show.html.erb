@@ -1,0 +1,48 @@
+<div class="form-horizontal">
+<fieldset>
+  <legend>Viewing <%= @ship.name %></legend>
+  <div class="controls-group">
+    <label class="controls-label">Name:</label>
+    <div class="controls">
+      <span class="help-inline"><strong><%= @ship.name %></strong></span>
+    </div>
+  </div>
+
+  <div class="controls-group">
+    <label class="controls-label">Crew:</label>
+    <div class="controls">
+      <span><strong><%= @ship.crew %></strong></span>
+    </div>
+  </div>
+
+  <div class="controls-group">
+    <label class="controls-label">Speed:</label>
+    <div class="controls">
+      <span><strong><%= @ship.speed %></strong></span>
+    </div>
+  </div>
+
+  <div class="controls-group">
+    <label class="controls-label">Has Astromech:</label>
+    <div class="controls">
+      <span><%= @ship.has_astromech %></span>
+    </div>
+  </div>
+
+  <div class="controls-group">
+    <label class="controls-label">Armament:</label>
+    <div class="controls">
+      <span><%= @ship.armament %></span>
+    </div>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Pilots Assigned to This Type of Ship</legend>
+  <%= render('pilots_table', :pilots => @ship.pilots)%>
+</fieldset>
+
+  <div class="form-actions">
+    <%= link_to("Back to Home", ships_path, :class => "btn btn-primary") %>
+  </div>
+</div>
