@@ -21,7 +21,7 @@ def make_pilots
   a4_y_wing = Ship.find_by_name("BTL-A4 Y-Wing").id
   x_wing = Ship.find_by_name("T-65 X-Wing").id
 
-  Pilot.create!(:call_sign => "Green Leader", :first_name => "Arvyn", :last_name => "Crynyd", :ship_id => a_wing)
+  Pilot.create!(:call_sign => "Green Leader", :first_name => "Arvel", :last_name => "Crynyd", :ship_id => a_wing)
   Pilot.create!(:call_sign => "Gray Leader", :first_name => "Horton", :last_name => "Salm", :ship_id => a4_y_wing)
   Pilot.create!(:call_sign => "Gold Leader", :first_name => "Jon", :last_name => "Vander", :ship_id => a4_y_wing)
   Pilot.create!(:call_sign => "Red Leader", :first_name => "Garven", :last_name => "Dreis", :ship_id => x_wing)
