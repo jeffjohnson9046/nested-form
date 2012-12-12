@@ -50,15 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ships/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_pilot_fields.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +62,16 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/ships/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="68" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3234245">
+            <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ships_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ships_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +125,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="/Rails nested-form: development" />
-        <option value="$PROJECT_DIR$/app/views/ships/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/models/ship.rb" />
@@ -139,6 +138,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/ships/index.html.erb" />
       </list>
     </option>
   </component>
@@ -818,13 +818,6 @@
         <state line="3" column="41" selection-start="217" selection-end="217" vertical-scroll-proportion="-1.92" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ships_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
@@ -888,9 +881,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="68" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3234245">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
