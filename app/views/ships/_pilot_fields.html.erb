@@ -30,7 +30,27 @@
   <div class="modal-footer">
     <button id="addButton" type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Add</button>
     <button id="cancelButton" type="button" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Cancel</button>
-    <%#= link_to("Add", :data => { :remote => true, :dismiss => "modal" }, :html => { :class => "btn btn-primary" }) %>
-    <%#= link_to("Cancel", :data => { :remote => true, :dismiss => "modal" }, :html => { :class => "btn btn-inverse" }) %>
   </div>
 </div>
+<script type="text/javascript">
+    $('#addButton').on('click', function() {
+        // Get a handle on the input fields and remove them from the DOM (so we can add them as a table row later).
+        var inputFields = $('#new-pilot-fields input[type="text"]');
+        inputFields.detach();
+
+        // Create a new row that contains the text controls from the modal window.
+        var newRow = $("<tr />");
+        inputFields.map(function () {
+            return $('<td/>').append($(this));
+        }).appendTo(newRow);
+
+        // TODO:  Append "remove" link to newRow.
+
+        // Get a handle on the last table row and add the new row to it.
+        var lastRow = $('#pilots-table tr:last');
+        lastRow.after(newRow);
+
+        // Poor man's $('#new-pilot-fields').modal('hide');
+        $('#new-pilot-fields').remove();
+    });
+</script>
