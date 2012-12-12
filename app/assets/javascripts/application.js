@@ -25,25 +25,3 @@ function add_fields(link, association, content) {
     var regex = new RegExp("new_" + association, "g");
     $(link).parent().after(content.replace(regex, new_id));
 }
-
-$('#addButton').on('click', function() {
-    // Get a handle on the input fields and remove them from the DOM (so we can add them as a table row later).
-    var inputFields = $('#new-pilot-fields input[type="text"]');
-    inputFields.detach();
-
-    var newRow = $("<tr />");
-    inputFields.map(function () {
-        return $('<td/>').append(this);
-    }).appendTo(newRow);
-
-//      inputFields.each(function(index) {
-//          var newCell = $("<td>" + inputFields[index] + "</td>");
-//          newCell.appendTo(newRow);
-//      });
-
-    // Get a handle on the last table row
-    var lastRow = $('#pilots-table tr:last');
-    lastRow.after(newRow);
-
-    $('#new-pilot-fields').modal('hide');
-});

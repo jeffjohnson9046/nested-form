@@ -1,4 +1,4 @@
-<div id="new-pilot-fields" class="modal">
+<div id="new-pilot-fields" class="modal" data-backdrop="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <h3>Add a Pilot<%= " to the #{ @ship.name } Pilot Roster" unless @ship.name.nil? %></h3>
@@ -8,23 +8,24 @@
       <div class="control-group">
         <%= f.label(:first_name, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:first_name, :class => "input-xlarge") %>
+          <%= f.text_field(:first_name, :class => "input-xlarge field") %>
         </div>
       </div>
 
       <div class="control-group">
         <%= f.label(:last_name, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:last_name, :class => "input-xlarge") %>
+          <%= f.text_field(:last_name, :class => "input-xlarge field") %>
         </div>
       </div>
 
       <div class="control-group">
         <%= f.label(:call_sign, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:call_sign, :class => "input-xlarge") %>
+          <%= f.text_field(:call_sign, :class => "input-xlarge field") %>
         </div>
       </div>
+      <%= f.hidden_field(:_destroy, :class => "field") %>
     </fieldset>
   </div>
   <div class="modal-footer">
@@ -35,20 +36,22 @@
 <script type="text/javascript">
     $('#addButton').on('click', function() {
         // Get a handle on the input fields and remove them from the DOM (so we can add them as a table row later).
-        var inputFields = $('#new-pilot-fields input[type="text"]');
+        var inputFields = $('#new-pilot-fields .field');
         inputFields.detach();
 
         // Create a new row that contains the text controls from the modal window.
-        var newRow = $("<tr />");
+        var newRow = $('<tr class="fields" />');
         inputFields.map(function () {
-            return $('<td/>').append($(this));
+            return $('<td/>').append(this);
         }).appendTo(newRow);
 
-        // TODO:  Append "remove" link to newRow.
+        // Add the row to the end of the table.
+        var tableBody = $('#pilots-table tbody');
+        newRow.appendTo(tableBody);
 
-        // Get a handle on the last table row and add the new row to it.
-        var lastRow = $('#pilots-table tr:last');
-        lastRow.after(newRow);
+        // Add the "Remove" link to the newly created row.
+        var removeLinkCell = $("tr:last td:last");
+        $('#pilots-table a:last').clone().appendTo(removeLinkCell);
 
         // Poor man's $('#new-pilot-fields').modal('hide');
         $('#new-pilot-fields').remove();

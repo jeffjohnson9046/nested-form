@@ -39,11 +39,9 @@
 
     <fieldset>
       <legend>Pilots <%= "That Fly the  #{ @ship.name }" unless @ship.name.nil? %></legend>
-      <%= render('pilots_table', :f => f) if @ship.pilots.any? %>
+      <%= render('pilots_table', :f => f) %>
       <%= link_to_add_fields("Add a Pilot", f, :pilots, :class => "btn btn-primary") %>
-      <p>
-
-      </p>
+      <p></p>
     </fieldset>
 
     <div class="modal-footer">

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121206003644) do
+ActiveRecord::Schema.define(:version => 20121212193520) do
 
   create_table "pilots", :force => true do |t|
     t.string   "first_name"
@@ -22,14 +22,14 @@ ActiveRecord::Schema.define(:version => 20121206003644) do
     t.datetime "updated_at", :null => false
   end
 
-  add_index "pilots", ["ship_id"], :name => "index_pilots_on_ship_id"
+  add_index "pilots", ["ship_id"], :name => "ix_pilots_ships"
 
   create_table "ships", :force => true do |t|
     t.string   "name"
     t.integer  "crew"
     t.boolean  "has_astromech"
     t.integer  "speed"
-    t.string   "armament"
+    t.text     "armament"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
   end

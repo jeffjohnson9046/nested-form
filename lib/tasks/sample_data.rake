@@ -17,7 +17,7 @@ def make_ships
 end
 
 def make_pilots
-  a_wing = Ship.find_by_name("RZ-1A A-Wing").id
+  a_wing = Ship.find_by_name("RZ-1 A-Wing").id
   a4_y_wing = Ship.find_by_name("BTL-A4 Y-Wing").id
   x_wing = Ship.find_by_name("T-65 X-Wing").id
 
