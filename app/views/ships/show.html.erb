@@ -44,7 +44,7 @@
 </fieldset>
 
   <div class="modal-footer">
-    <%= link_to("Edit", edit_ship_path(@ship), :class => "btn btn-primary") %>
-    <%= link_to("Back to Home", ships_path, :class => "btn btn-inverse") %>
+    <%= link_to("Edit", edit_ship_path(@ship), :class => "btn btn-primary", :title => "Edit #{ @ship.name }.") %>
+    <%= link_to("Back to Home", ships_path, :class => "btn btn-inverse", :title => "Return to the Home page.") %>
   </div>
 </div>

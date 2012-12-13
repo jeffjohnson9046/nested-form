@@ -16,11 +16,11 @@
         <td><%= ship.crew %></td>
         <td><%= '<i class="icon-ok"/>'.html_safe if ship.has_astromech %></td>
         <td><%= ship.armament %></td>
-        <td><%= link_to('<i class="icon-eye-open"/>'.html_safe, ship)  %></td>
-        <td><%= link_to('<i class="icon-edit"/>'.html_safe, edit_ship_path(ship)) %></td>
-        <td><%= link_to('<i class="icon-remove"/>'.html_safe, ship, :method => :delete, :confirm => "Are you sure you want to permanently delete the #{ ship.name } and all its associated Pilots?") %></td>
+        <td><%= link_to('<i class="icon-eye-open"/>'.html_safe, ship, :title => "View #{ ship.name }.")  %></td>
+        <td><%= link_to('<i class="icon-edit"/>'.html_safe, edit_ship_path(ship), :title => "Edit #{ ship.name }.") %></td>
+        <td><%= link_to('<i class="icon-remove"/>'.html_safe, ship, :method => :delete, :confirm => "Are you sure you want to permanently delete the #{ ship.name } and all its associated Pilots?", :title => "Delete #{ ship.name }.") %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-<%= link_to("Add a Ship", new_ship_path, :class => "btn btn-primary") %>
+<%= link_to("Add a Ship", new_ship_path, :class => "btn btn-primary", :title => "Add a new Ship to the Starfighter Recognition database.") %>

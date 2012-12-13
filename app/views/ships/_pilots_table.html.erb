@@ -13,7 +13,7 @@
         <td><%= pilots_form.text_field(:call_sign) %></td>
         <% if current_page?(new_ship_path) || current_page?(edit_ship_path) %>
             <td>
-              <%= link_to_remove_fields('<i class="icon-remove"></i>'.html_safe, pilots_form) %>
+              <%= link_to_remove_fields('<i class="icon-remove"></i>'.html_safe, pilots_form, :title => "Delete this Pilot.") %>
             </td>
         <% end %>
       </tr>

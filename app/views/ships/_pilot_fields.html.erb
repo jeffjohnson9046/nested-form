@@ -29,8 +29,8 @@
     </fieldset>
   </div>
   <div class="modal-footer">
-    <button id="addButton" type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Add</button>
-    <button id="cancelButton" type="button" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <button id="addButton" type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true" title="Add this Pilot to the list of Pilots that are assigned to this Ship.">Add</button>
+    <button id="cancelButton" type="button" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true" title="Close this screen without adding the Pilot to the list.">Cancel</button>
   </div>
 </div>
 <script type="text/javascript">
@@ -46,14 +46,13 @@
         }).appendTo(newRow);
 
         // Add the row to the end of the table.
-        var tableBody = $('#pilots-table tbody');
-        newRow.appendTo(tableBody);
+        newRow.appendTo($('#pilots-table tbody'));
 
         // Add the "Remove" link to the newly created row.
         var removeLinkCell = $("tr:last td:last");
         $('#pilots-table a:last').clone().appendTo(removeLinkCell);
 
-        // Poor man's $('#new-pilot-fields').modal('hide');
+        // Finally, hide the modal form.
         $('#new-pilot-fields').modal('hide');
     });
 </script>

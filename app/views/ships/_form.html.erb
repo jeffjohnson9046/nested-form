@@ -40,12 +40,12 @@
     <fieldset>
       <legend>Pilots <%= "That Fly the  #{ @ship.name }" unless @ship.name.nil? %></legend>
       <%= render('pilots_table', :f => f) %>
-      <%= link_to_add_fields("Add a Pilot", f, :pilots, :class => "btn btn-primary") %>
+      <%= link_to_add_fields("Add a Pilot", f, :pilots, :class => "btn btn-primary", :title => "Add a new Pilot to the list of Pilots that fly this Ship.") %>
       <p></p>
     </fieldset>
 
     <div class="modal-footer">
-      <%= f.submit("Save", :class => "btn btn-primary") %>
-      <%= link_to("Cancel", ships_path, :confirm => "Are you sure you want to cancel?  Any changes will be lost.", :class => "btn btn-inverse") %>
+      <%= f.submit("Save", :class => "btn btn-primary", :title => "Save the changes to this Ship.") %>
+      <%= link_to("Cancel", ships_path, :confirm => "Are you sure you want to cancel?  Any changes will be lost.", :class => "btn btn-inverse", :title => "Cancel the changes and return to the Home page.") %>
     </div>
 <% end %>

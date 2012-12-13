@@ -9,7 +9,7 @@ namespace :db do
 end
 
 def make_ships
-  Ship.create!(:name => "RZ-1A A-Wing", :crew => 1, :has_astromech => false, :speed => 125, :armament => "2 laser cannons, concussion missiles")
+  Ship.create!(:name => "RZ-1 A-Wing", :crew => 1, :has_astromech => false, :speed => 125, :armament => "2 laser cannons, concussion missiles")
   Ship.create!(:name => "B-Wing", :crew => 1, :has_astromech => false, :speed => 75, :armament => "2 Autoblasters, 1 Heavy Laser Cannon, 3 Ion Cannons, proton torpedoes")
   Ship.create!(:name => "BTL-S3 Y-Wing", :crew => 2, :has_astromech => true, :speed => 80, :armament => "2 laser cannons, ion cannon turret, proton torpedoes")
   Ship.create!(:name => "BTL-A4 Y-Wing", :crew => 1, :has_astromech => true, :speed => 80, :armament => "2 laser cannons, ion cannon turret, proton torpedoes")
