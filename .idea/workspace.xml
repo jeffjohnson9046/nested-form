@@ -26,7 +26,7 @@
       <file leaf-file-name="_pilots_table.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="122" selection-start="651" selection-end="651" vertical-scroll-proportion="-9.6">
+            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="153" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-12.36">
+            <state line="42" column="153" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-20.56">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="_pilot_fields.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="56" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.6097561">
+            <state line="57" column="7" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.8435754">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="108" selection-start="1438" selection-end="1438" vertical-scroll-proportion="-29.44">
+            <state line="46" column="108" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="136" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-16.0">
+            <state line="25" column="136" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.64">
+            <state line="1" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/ships/_pilots_row.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/ships_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/new.html.erb" />
@@ -116,10 +115,11 @@
         <option value="$PROJECT_DIR$/app/views/ships/_pilots_display.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
-        <option value="$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/ships.js" />
         <option value="$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb" />
       </list>
     </option>
@@ -154,6 +154,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -418,19 +420,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: nested-form">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -699,14 +699,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22181818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364419" sideWeight="0.7781818" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23314203" sideWeight="0.7781818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23672883" sideWeight="0.7781818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -716,6 +715,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22181818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -775,18 +775,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="217" selection-end="217" vertical-scroll-proportion="-1.92" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="355" selection-end="355" vertical-scroll-proportion="-8.32">
@@ -831,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.64">
+        <state line="1" column="17" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -852,35 +840,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="136" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-16.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="122" selection-start="651" selection-end="651" vertical-scroll-proportion="-9.6">
+        <state line="25" column="136" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="108" selection-start="1438" selection-end="1438" vertical-scroll-proportion="-29.44">
+        <state line="46" column="108" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#nested-form">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#nested-form</OriginalElement>
+          <nodes>
+            <node x="" y="">Ship</node>
+            <node x="" y="">Pilot</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="223.0" y="82.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Migration fields</Category>
+            <Category>Association fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="153" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-12.36">
+        <state line="42" column="153" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-20.56">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="56" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.6097561">
+        <state line="57" column="7" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.8435754">
           <folding />
         </state>
       </provider>
