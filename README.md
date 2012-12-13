@@ -33,8 +33,8 @@ A user can conduct any number of the changes cited above prior to saving, and Ra
 Setup
 -----
 1.  Clone the app locally.
-2.  Run rake ```db:migrate``` to set up the database.
-3.  Run rake ```db:populate``` to seed the database with some sample data.
+2.  Run ```rake db:migrate``` to set up the database.
+3.  Run ```rake db:populate``` to seed the database with some sample data.
 4.  Create a new Ship or edit an existing Ship from the list.
 5.  In the Ship Details screen, edit any details.  Also, add/edit/remove any Pilots in the list.
 6.  Save your changes.
