@@ -24,4 +24,5 @@ function add_fields(link, association, content) {
     var new_id = new Date().getTime();
     var regex = new RegExp("new_" + association, "g");
     $(link).parent().after(content.replace(regex, new_id));
+    $('#new-pilot-fields').modal('show');
 }

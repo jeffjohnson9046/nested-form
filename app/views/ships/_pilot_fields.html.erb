@@ -1,4 +1,4 @@
-<div id="new-pilot-fields" class="modal" data-backdrop="true">
+<div id="new-pilot-fields" class="modal fade" data-backdrop="static">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <h3>Add a Pilot<%= " to the #{ @ship.name } Pilot Roster" unless @ship.name.nil? %></h3>
@@ -54,6 +54,6 @@
         $('#pilots-table a:last').clone().appendTo(removeLinkCell);
 
         // Poor man's $('#new-pilot-fields').modal('hide');
-        $('#new-pilot-fields').remove();
+        $('#new-pilot-fields').modal('hide');
     });
 </script>

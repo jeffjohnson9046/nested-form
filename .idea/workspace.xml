@@ -32,19 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pilots_display.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_display.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="436" selection-end="436" vertical-scroll-proportion="-9.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="1" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
+            <state line="26" column="38" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,25 +44,25 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="9" selection-start="1417" selection-end="1417" vertical-scroll-proportion="-25.12">
+            <state line="41" column="9" selection-start="1417" selection-end="1417" vertical-scroll-proportion="-26.24">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pilot_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_pilot_fields.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="67" selection-start="2231" selection-end="2231" vertical-scroll-proportion="-33.28">
+            <state line="56" column="42" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.85253453">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ships/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -134,11 +125,11 @@
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
         <option value="$PROJECT_DIR$/app/views/ships/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/_pilots_display.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ships/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb" />
       </list>
     </option>
   </component>
@@ -847,9 +838,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_display.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="1417" selection-end="1417" vertical-scroll-proportion="-25.12">
+        <state line="15" column="8" selection-start="436" selection-end="436" vertical-scroll-proportion="-9.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ships/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -863,28 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="67" selection-start="2231" selection-end="2231" vertical-scroll-proportion="-33.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="528" selection-end="528" vertical-scroll-proportion="-8.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_display.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="436" selection-end="436" vertical-scroll-proportion="-9.6">
+        <state line="26" column="38" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -896,9 +873,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ships/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/ships/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="41" column="9" selection-start="1417" selection-end="1417" vertical-scroll-proportion="-26.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilots_table.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="528" selection-end="528" vertical-scroll-proportion="-8.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ships/_pilot_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="42" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.85253453">
           <folding />
         </state>
       </provider>
