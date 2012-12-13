@@ -21,20 +21,20 @@ records for the Pilots that fly the Ship being created.  When editing an existin
   2.  Edit an existing Pilot.
   3.  Remove a Pilot from the list.
 
-** = this where the modal part comes in to play. In the Railscast, the fields to add a new "child" object are inserted before the link, and a new set of fields is inserted for each new "child" object the user wants to create.  Instead, I'd like to use a modal form that will display the required data entry fields.  The form allows a user to enter a single "child" object (a Pilot in this case).  After the Pilot has been added (i.e. the user clicks "Add" on the modal form), the new Pilot will appear in the table of Pilots.
+** = this where the modal part comes in to play. In the [Railscast] [1], the fields to add a new "child" object are inserted before the link, and a new set of fields is inserted for each new "child" object the user wants to create.  Instead, I'd like to use a modal form that will display the required data entry fields.  The form allows a user to enter a single "child" object (a Pilot in this case).  After the Pilot has been added (i.e. the user clicks "Add" on the modal form), the new Pilot will appear in the table of Pilots.
 
 A user can conduct any number of the changes cited above prior to saving, and Rails/ActiveRecord will do the right thing!  It will:
 
-  1.  Destroy the Pilots that were removed
-  2.  Add the Pilots that were created
-  3.  Update the Pilots that were changed
+  1.  Destroy the Pilots that were removed.
+  2.  Add the Pilots that were created.
+  3.  Update the Pilots that were changed.
   4.  Update the Ship attributes that were changed.
 
 Setup
 -----
 1.  Clone the app locally.
-2.  Run rake db:migrate to set up the database.
-3.  Run rake db:populate to seed the database with some sample data.
+2.  Run rake ```db:migrate``` to set up the database.
+3.  Run rake ```db:populate``` to seed the database with some sample data.
 4.  Create a new Ship or edit an existing Ship from the list.
 5.  In the Ship Details screen, edit any details.  Also, add/edit/remove any Pilots in the list.
 6.  Save your changes.
