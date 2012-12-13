@@ -43,7 +43,5 @@ TO-DOs (read: Bugs!)
 ====================
 The "modal" form for adding new Pilots doesn't work very well:
 
-  1.  The "Cancel" button doesn't dismiss the form.
-  2.  There's no backdrop when the modal form appears.
-  3.  The Javascript/jQuery for the "Add" button on the modal form is in the .erb file itself - it should probably be moved to ships.js or application.js.
-  4.  After a new Pilot has been added, the table is resized.  This can result in an unsightly table w/text fields of different sizes.
+  1.  The Javascript/jQuery for the "Add" button on the modal form is in the .erb file itself - it should probably be moved to ships.js or application.js.
+  2.  After a new Pilot has been added, the table is resized.  This can result in an unsightly table w/text fields of different sizes.
