@@ -42,15 +42,16 @@
         // Create a new row that contains the text controls from the modal window.
         var newRow = $('<tr class="fields" />');
         inputFields.map(function () {
+            $(this).removeAttr("class");
             return $('<td/>').append(this);
         }).appendTo(newRow);
 
         // Add the row to the end of the table.
         newRow.appendTo($('#pilots-table tbody'));
 
-        // Add the "Remove" link to the newly created row.
-        var removeLinkCell = $("tr:last td:last");
-        $('#pilots-table a:last').clone().appendTo(removeLinkCell);
+        // Add the "Remove" link to the last cell of the newly created row.
+        var link = $('<a href="#" onclick="remove_fields(this); return false;"><i class="icon-remove"></a>');
+        link.appendTo($("tr:last td:last"));
 
         // Finally, hide the modal form.
         $('#new-pilot-fields').modal('hide');
