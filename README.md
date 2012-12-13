@@ -17,9 +17,11 @@ The object model is very simple:
 This application will allow a user to create/edit/delete a Ship.  While creating a Ship, a user has the option of creating 
 records for the Pilots that fly the Ship being created.  When editing an existing Ship, a user has the ability to:
 
-  1.  Create a new Pilot.
+  1.  Create a new Pilot **.
   2.  Edit an existing Pilot.
   3.  Remove a Pilot from the list.
+
+** = this where the modal part comes in to play. In the Railscast, the fields to add a new "child" object are inserted before the link, and a new set of fields is inserted for each new "child" object the user wants to create.  Instead, I'd like to use a modal form that will display the required data entry fields.  The form allows a user to enter a single "child" object (a Pilot in this case).  After the Pilot has been added (i.e. the user clicks "Add" on the modal form), the new Pilot will appear in the table of Pilots.
 
 A user can conduct any number of the changes cited above prior to saving, and Rails/ActiveRecord will do the right thing!  It will:
 
