@@ -13,7 +13,6 @@
         <td><%= pilots_form.text_field(:call_sign) %></td>
         <% if current_page?(new_ship_path) || current_page?(edit_ship_path) %>
             <td>
-              <%#= pilots_form.hidden_field(:_destroy) %>
               <%= link_to_remove_fields('<i class="icon-remove"></i>'.html_safe, pilots_form) %>
             </td>
         <% end %>

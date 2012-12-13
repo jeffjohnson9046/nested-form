@@ -1,0 +1,16 @@
+<table id="pilots-display-table" class="table table-hover table-striped">
+  <thead>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Call Sign</th>
+  </thead>
+  <tbody>
+      <% @ship.pilots.each do |pilot| %>
+          <tr class="fields">
+            <td><%= pilot.first_name %></td>
+            <td><%= pilot.last_name %></td>
+            <td><%= pilot.call_sign %></td>
+          </tr>
+      <% end %>
+  </tbody>
+</table>

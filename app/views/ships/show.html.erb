@@ -1,48 +1,50 @@
+<h1>Viewing <%= @ship.name %></h1>
 <div class="form-horizontal">
 <fieldset>
-  <legend>Viewing <%= @ship.name %></legend>
-  <div class="controls-group">
-    <label class="controls-label">Name:</label>
+  <legend><%= @ship.name %> Ship Information</legend>
+  <div class="control-group">
+    <label class="control-label">Name:</label>
     <div class="controls">
-      <span class="help-inline"><strong><%= @ship.name %></strong></span>
+      <label class="radio inline"><strong><%= @ship.name %></strong></label>
     </div>
   </div>
 
-  <div class="controls-group">
-    <label class="controls-label">Crew:</label>
+  <div class="control-group">
+    <label class="control-label">Crew:</label>
     <div class="controls">
-      <span><strong><%= @ship.crew %></strong></span>
+      <span class="radio inline"><strong><%= @ship.crew %></strong></span>
     </div>
   </div>
 
-  <div class="controls-group">
-    <label class="controls-label">Speed:</label>
+  <div class="control-group">
+    <label class="control-label">Speed:</label>
     <div class="controls">
-      <span><strong><%= @ship.speed %></strong></span>
+      <span class="radio inline"><strong><%= @ship.speed %></strong></span>
     </div>
   </div>
 
-  <div class="controls-group">
-    <label class="controls-label">Has Astromech:</label>
+  <div class="control-group">
+    <label class="control-label">Has Astromech:</label>
     <div class="controls">
-      <span><%= @ship.has_astromech %></span>
+      <span class="radio inline"><strong><%= @ship.has_astromech ? "Yes" : "No" %></strong></span>
     </div>
   </div>
 
-  <div class="controls-group">
-    <label class="controls-label">Armament:</label>
+  <div class="control-group">
+    <label class="control-label">Armament:</label>
     <div class="controls">
-      <span><%= @ship.armament %></span>
+      <span class="radio inline"><strong><%= @ship.armament %></strong></span>
     </div>
   </div>
 </fieldset>
 
 <fieldset>
   <legend>Pilots Assigned to This Type of Ship</legend>
-  <%= render('pilots_table', :pilots => @ship.pilots)%>
+  <%= render('pilots_display') %>
 </fieldset>
 
-  <div class="form-actions">
-    <%= link_to("Back to Home", ships_path, :class => "btn btn-primary") %>
+  <div class="modal-footer">
+    <%= link_to("Edit", edit_ship_path(@ship), :class => "btn btn-primary") %>
+    <%= link_to("Back to Home", ships_path, :class => "btn btn-inverse") %>
   </div>
 </div>
