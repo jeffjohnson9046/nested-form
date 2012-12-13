@@ -1,9 +1,9 @@
 nested-form - an Exercise in fields_for, accepts_nested_attributes_for and Modal Forms
-======================================================================================
+--------------------------------------------------------------------------------------
 
 A Rails 3.2 CRUD application that demonstrates complex forms, including a modal window for adding new child records.
 
-This demo app builds on the information presented in Railscast 197:  http://railscasts.com/episodes/197-nested-model-form-part-2.
+This demo app builds on the information presented in [Railscast 197] [1].
 I wanted to take it a step further and see if I could use a modal form for the "child" object data entry fields.  I couldn't find any good demos on the internet on how to go about this, so I created this demo app to try it out.
 
 The idea behind this application is fairly simple:  it's a Star Wars Starfighter Database (albeit a VERY simplified one).
@@ -31,7 +31,7 @@ A user can conduct any number of the changes cited above prior to saving, and Ra
   4.  Update the Ship attributes that were changed.
 
 Setup
-=====
+-----
 1.  Clone the app locally.
 2.  Run rake db:migrate to set up the database.
 3.  Run rake db:populate to seed the database with some sample data.
@@ -42,8 +42,7 @@ Setup
 8.  Observe all the changes have been saved.
 
 TO-DOs (read: Bugs!)
-====================
-The "modal" form for adding new Pilots doesn't work very well:
+--------------------
+1.  The Javascript/jQuery for the "Add" button on the modal form is in the .erb file itself - it should probably be moved to ships.js or application.js.
 
-  1.  The Javascript/jQuery for the "Add" button on the modal form is in the .erb file itself - it should probably be moved to ships.js or application.js.
-  2.  After a new Pilot has been added, the table is resized.  This can result in an unsightly table w/text fields of different sizes.
+[1]: http://railscasts.com/episodes/197-nested-model-form-part-2
