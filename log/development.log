@@ -47621,3 +47621,4051 @@ Served asset /application.js - 304 Not Modified (1ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-12 17:00:25 -0800
 Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-17 13:54:52 -0800
+Connecting to database specified by database.yml
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.1ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (4ms)  (pid 4529)
+Completed 200 OK in 487ms (Views: 440.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /ships.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:53 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /bootstrap.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 13:54:54 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (4ms)
+
+
+Started GET "/ships/new" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Processing by ShipsController#new as HTML
+  Rendered ships/_pilots_table.html.erb (29.3ms)
+  Rendered ships/_pilot_fields.html.erb (4.0ms)
+  Rendered ships/_form.html.erb (75.0ms)
+  Rendered ships/new.html.erb within layouts/application (77.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:54:58 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 13:55:01 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.3ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (15.7ms)
+  Rendered ships/_pilot_fields.html.erb (1.4ms)
+  Rendered ships/_form.html.erb (24.7ms)
+  Rendered ships/edit.html.erb within layouts/application (25.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 39.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 13:55:03 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 13:56:47 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.3ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (4.3ms)
+  Rendered ships/_pilot_fields.html.erb (1.7ms)
+  Rendered ships/_form.html.erb (13.3ms)
+  Rendered ships/edit.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (6ms)  (pid 4529)
+Completed 200 OK in 262ms (Views: 260.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /ships.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 13:56:48 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 13:57:56 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.3ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (3.9ms)
+  Rendered ships/_pilot_fields.html.erb (2.9ms)
+  Rendered ships/_form.html.erb (14.7ms)
+  Rendered ships/edit.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (3ms)  (pid 4529)
+Completed 200 OK in 238ms (Views: 235.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 13:57:57 -0800
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 13:57:58 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:10:14 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (3.9ms)
+  Rendered ships/_pilot_fields.html.erb (19.6ms)
+  Rendered ships/_form.html.erb (29.1ms)
+  Rendered ships/edit.html.erb within layouts/application (29.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (3ms)  (pid 4529)
+Completed 200 OK in 232ms (Views: 230.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:10:15 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:29:45 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (5.5ms)
+  Rendered ships/_pilot_fields.html.erb (3.4ms)
+  Rendered ships/_form.html.erb (35.8ms)
+  Rendered ships/edit.html.erb within layouts/application (37.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (5ms)  (pid 4529)
+Completed 200 OK in 276ms (Views: 274.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:29:46 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (4.6ms)
+  Rendered ships/_pilot_fields.html.erb (2.7ms)
+  Rendered ships/_form.html.erb (14.0ms)
+  Rendered ships/edit.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:31:27 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:31:28 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (4.2ms)
+  Rendered ships/_pilot_fields.html.erb (3.7ms)
+  Rendered ships/_form.html.erb (16.0ms)
+  Rendered ships/edit.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:32:34 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "1355783563418"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false"}, "1355783593814"=>{"first_name"=>"another", "last_name"=>"dude", "call_sign"=>"green 8", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mPilot Load (0.3ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21)[0m
+  [1m[35mSQL (14.5ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "green 7"], ["created_at", Mon, 17 Dec 2012 22:33:35 UTC +00:00], ["first_name", "some"], ["last_name", "guy"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:33:35 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["call_sign", "green 8"], ["created_at", Mon, 17 Dec 2012 22:33:35 UTC +00:00], ["first_name", "another"], ["last_name", "dude"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:33:35 UTC +00:00]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 27ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:33:35 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (5.5ms)
+  Rendered ships/_pilot_fields.html.erb (2.5ms)
+  Rendered ships/_form.html.erb (14.5ms)
+  Rendered ships/edit.html.erb within layouts/application (15.2ms)
+  Rendered layouts/_messages.html.erb (17.5ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:33:38 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:33:39 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:35:14 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (2.0ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (5.7ms)
+  Rendered ships/_pilot_fields.html.erb (1.8ms)
+  Rendered ships/_form.html.erb (30.1ms)
+  Rendered ships/edit.html.erb within layouts/application (30.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (5ms)  (pid 4529)
+Completed 200 OK in 241ms (Views: 237.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:35:15 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:36:06 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (1.9ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (5.9ms)
+  Rendered ships/_pilot_fields.html.erb (1.5ms)
+  Rendered ships/_form.html.erb (31.4ms)
+  Rendered ships/edit.html.erb within layouts/application (32.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (5ms)  (pid 4529)
+Completed 200 OK in 250ms (Views: 247.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /ships.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:36:07 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:42:54 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (0.5ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (6.1ms)
+  Rendered ships/_pilot_fields.html.erb (1.7ms)
+  Rendered ships/_form.html.erb (14.1ms)
+  Rendered ships/edit.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (6ms)  (pid 4529)
+Completed 200 OK in 242ms (Views: 239.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:42:55 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (5.7ms)
+  Rendered ships/_pilot_fields.html.erb (1.7ms)
+  Rendered ships/_form.html.erb (13.0ms)
+  Rendered ships/edit.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (3ms)  (pid 4529)
+Completed 200 OK in 228ms (Views: 226.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /ships.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:19 -0800
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:44:20 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false", "id"=>"22"}, "3"=>{"first_name"=>"another", "last_name"=>"dude", "call_sign"=>"green 8", "_destroy"=>"false", "id"=>"23"}, "1355784261571"=>{"first_name"=>"foo", "last_name"=>"bar", "call_sign"=>"test", "_destroy"=>"1"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 22, 23)
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.3ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:44:35 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (8.6ms)
+  Rendered ships/_pilot_fields.html.erb (19.9ms)
+  Rendered ships/_form.html.erb (35.4ms)
+  Rendered ships/edit.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:44:37 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:44:38 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false", "id"=>"22"}, "3"=>{"first_name"=>"another", "last_name"=>"dude", "call_sign"=>"green 8", "_destroy"=>"false", "id"=>"23"}, "1355784313133"=>{"first_name"=>"foo", "last_name"=>"bar", "call_sign"=>"test", "_destroy"=>"false"}, "1355784326707"=>{"first_name"=>"more", "last_name"=>"foo", "call_sign"=>"testagain", "_destroy"=>"false"}, "1355784336271"=>{"first_name"=>"yet", "last_name"=>"another", "call_sign"=>"test", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 22, 23)[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "test"], ["created_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00], ["first_name", "foo"], ["last_name", "bar"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["call_sign", "testagain"], ["created_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00], ["first_name", "more"], ["last_name", "foo"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "test"], ["created_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00], ["first_name", "yet"], ["last_name", "another"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:45:46 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 29ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.3ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:45:46 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (9.1ms)
+  Rendered ships/_pilot_fields.html.erb (1.4ms)
+  Rendered ships/_form.html.erb (16.2ms)
+  Rendered ships/edit.html.erb within layouts/application (16.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:49 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:45:50 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"1", "id"=>"22"}, "3"=>{"first_name"=>"another", "last_name"=>"dude", "call_sign"=>"green 8", "_destroy"=>"false", "id"=>"23"}, "4"=>{"first_name"=>"foo", "last_name"=>"bar", "call_sign"=>"test", "_destroy"=>"1", "id"=>"24"}, "5"=>{"first_name"=>"more", "last_name"=>"foo", "call_sign"=>"testagain", "_destroy"=>"1", "id"=>"25"}, "6"=>{"first_name"=>"yet", "last_name"=>"another", "call_sign"=>"test", "_destroy"=>"1", "id"=>"26"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mPilot Load (0.4ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 22, 23, 24, 25, 26)[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "pilots" WHERE "pilots"."id" = ?  [["id", 22]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "pilots" WHERE "pilots"."id" = ?[0m  [["id", 24]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "pilots" WHERE "pilots"."id" = ?  [["id", 25]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "pilots" WHERE "pilots"."id" = ?[0m  [["id", 26]]
+  [1m[35m (3.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 14ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:46:02 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.1ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (5.4ms)
+  Rendered ships/_pilot_fields.html.erb (2.2ms)
+  Rendered ships/_form.html.erb (14.6ms)
+  Rendered ships/edit.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:46:05 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"another", "last_name"=>"dude", "call_sign"=>"green 8", "_destroy"=>"1", "id"=>"23"}, "1355784370444"=>{"first_name"=>"dead", "last_name"=>"meat", "call_sign"=>"green 5", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mPilot Load (0.3ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 23)
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["call_sign", "green 5"], ["created_at", Mon, 17 Dec 2012 22:46:18 UTC +00:00], ["first_name", "dead"], ["last_name", "meat"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 22:46:18 UTC +00:00]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "pilots" WHERE "pilots"."id" = ?  [["id", 23]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 9ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:46:18 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.3ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (26.4ms)
+  Rendered ships/_pilot_fields.html.erb (1.4ms)
+  Rendered ships/_form.html.erb (33.4ms)
+  Rendered ships/edit.html.erb within layouts/application (33.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 14:46:21 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:07:51 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (5.3ms)
+  Rendered ships/_pilot_fields.html.erb (2.5ms)
+  Rendered ships/_form.html.erb (16.5ms)
+  Rendered ships/edit.html.erb within layouts/application (36.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (6ms)  (pid 4529)
+Completed 200 OK in 283ms (Views: 280.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /application.js - 304 Not Modified (46ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:07:52 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"dead", "last_name"=>"meat", "call_sign"=>"green 5", "_destroy"=>"false", "id"=>"27"}, "1355785677285"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 27)[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "green 7"], ["created_at", Mon, 17 Dec 2012 23:08:09 UTC +00:00], ["first_name", "some"], ["last_name", "guy"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 23:08:09 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:08:09 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:08:11 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.1ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (6.0ms)
+  Rendered ships/_pilot_fields.html.erb (1.7ms)
+  Rendered ships/_form.html.erb (13.3ms)
+  Rendered ships/edit.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:08:12 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"dead", "last_name"=>"meat", "call_sign"=>"green 5", "_destroy"=>"1", "id"=>"27"}, "3"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false", "id"=>"28"}, "1355785696886"=>{"first_name"=>"another", "last_name"=>"guy", "call_sign"=>"Green 8", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mPilot Load (0.3ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 27, 28)[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "Green 8"], ["created_at", Mon, 17 Dec 2012 23:08:28 UTC +00:00], ["first_name", "another"], ["last_name", "guy"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 23:08:28 UTC +00:00]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "pilots" WHERE "pilots"."id" = ?[0m  [["id", 27]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 13ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:08:28 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:25:53 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (6ms)  (pid 4529)
+Completed 200 OK in 233ms (Views: 232.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:25:54 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.3ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (6.5ms)
+  Rendered ships/_pilot_fields.html.erb (19.1ms)
+  Rendered ships/_form.html.erb (33.5ms)
+  Rendered ships/edit.html.erb within layouts/application (34.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:25:57 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:25:58 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:28:20 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (21.8ms)
+  Rendered ships/_pilot_fields.html.erb (1.3ms)
+  Rendered ships/_form.html.erb (28.9ms)
+  Rendered ships/edit.html.erb within layouts/application (29.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (4ms)  (pid 4529)
+Completed 200 OK in 245ms (Views: 243.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:28:21 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:29:56 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1
+  Rendered ships/_pilots_table.html.erb (5.5ms)
+  Rendered ships/_pilot_fields.html.erb (1.6ms)
+  Rendered ships/_form.html.erb (12.6ms)
+  Rendered ships/edit.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (3ms)  (pid 4529)
+Completed 200 OK in 228ms (Views: 226.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:29:57 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false", "id"=>"28"}, "3"=>{"first_name"=>"another", "last_name"=>"guy", "call_sign"=>"Green 8", "_destroy"=>"false", "id"=>"29"}, "1355787005260"=>{"first_name"=>"foo", "last_name"=>"bar", "call_sign"=>"test", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mPilot Load (0.2ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 28, 29)[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "test"], ["created_at", Mon, 17 Dec 2012 23:30:17 UTC +00:00], ["first_name", "foo"], ["last_name", "bar"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 23:30:17 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:30:17 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (4ms)  (pid 4529)
+Completed 200 OK in 223ms (Views: 222.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /bootstrap.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /ships.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:32:51 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/1/edit" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36mPilot Load (0.3ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1[0m
+  Rendered ships/_pilots_table.html.erb (8.1ms)
+  Rendered ships/_pilot_fields.html.erb (1.6ms)
+  Rendered ships/_form.html.erb (16.3ms)
+  Rendered ships/edit.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:32:54 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started PUT "/ships/1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Processing by ShipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"RZ-1 A-Wing", "crew"=>"1", "has_astromech"=>"0", "speed"=>"125", "armament"=>"2 laser cannons, concussion missiles", "pilots_attributes"=>{"0"=>{"first_name"=>"Arvel", "last_name"=>"Crynyd", "call_sign"=>"Green 1", "_destroy"=>"false", "id"=>"16"}, "1"=>{"first_name"=>"Tycho", "last_name"=>"Celchu", "call_sign"=>"Green 4", "_destroy"=>"false", "id"=>"21"}, "2"=>{"first_name"=>"some", "last_name"=>"guy", "call_sign"=>"green 7", "_destroy"=>"false", "id"=>"28"}, "3"=>{"first_name"=>"another", "last_name"=>"guy", "call_sign"=>"Green 8", "_destroy"=>"false", "id"=>"29"}, "4"=>{"first_name"=>"foo", "last_name"=>"bar", "call_sign"=>"test", "_destroy"=>"false", "id"=>"30"}, "1355787177306"=>{"first_name"=>"test", "last_name"=>"test", "call_sign"=>"testsetatea", "_destroy"=>"false"}}}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 1 AND "pilots"."id" IN (16, 21, 28, 29, 30)
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["call_sign", "testsetatea"], ["created_at", Mon, 17 Dec 2012 23:33:05 UTC +00:00], ["first_name", "test"], ["last_name", "test"], ["ship_id", 1], ["updated_at", Mon, 17 Dec 2012 23:33:05 UTC +00:00]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 9ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (24.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:33:05 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:33:06 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/new" for 127.0.0.1 at 2012-12-17 15:34:49 -0800
+Processing by ShipsController#new as HTML
+  Rendered ships/_pilots_table.html.erb (0.3ms)
+  Rendered ships/_pilot_fields.html.erb (2.4ms)
+  Rendered ships/_form.html.erb (33.3ms)
+  Rendered ships/new.html.erb within layouts/application (34.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (4ms)  (pid 4529)
+Completed 200 OK in 234ms (Views: 233.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /ships.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:34:50 -0800
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:35:17 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/ships" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Processing by ShipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySSOT1U7gmUjkgQD54GzSV8dULHepQfd4+LnfkPDXYM=", "ship"=>{"name"=>"Tie/In Interceptor", "crew"=>"1", "has_astromech"=>"0", "speed"=>"120", "armament"=>"4 laser cannons", "pilots_attributes"=>{"1355787306485"=>{"first_name"=>"A", "last_name"=>"Pilot", "call_sign"=>"Sabre 1", "_destroy"=>"false"}, "1355787319618"=>{"first_name"=>"Another", "last_name"=>"Pilot", "call_sign"=>"Sabre 2", "_destroy"=>"false"}}}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "ships" ("armament", "created_at", "crew", "has_astromech", "name", "speed", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["armament", "4 laser cannons"], ["created_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00], ["crew", 1], ["has_astromech", false], ["name", "Tie/In Interceptor"], ["speed", 120], ["updated_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["call_sign", "Sabre 1"], ["created_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00], ["first_name", "A"], ["last_name", "Pilot"], ["ship_id", 9], ["updated_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pilots" ("call_sign", "created_at", "first_name", "last_name", "ship_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["call_sign", "Sabre 2"], ["created_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00], ["first_name", "Another"], ["last_name", "Pilot"], ["ship_id", 9], ["updated_at", Mon, 17 Dec 2012 23:35:31 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/ships
+Completed 302 Found in 13ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Processing by ShipsController#index as HTML
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" [0m
+  Rendered ships/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /bootstrap.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:35:31 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/9/edit" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mShip Load (0.2ms)[0m  SELECT "ships".* FROM "ships" WHERE "ships"."id" = 9 LIMIT 1
+  [1m[36mPilot Load (0.1ms)[0m  [1mSELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 9[0m
+  Rendered ships/_pilots_table.html.erb (3.2ms)
+  Rendered ships/_pilot_fields.html.erb (1.8ms)
+  Rendered ships/_form.html.erb (10.4ms)
+  Rendered ships/edit.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:35:34 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Processing by ShipsController#index as HTML
+  [1m[35mShip Load (0.3ms)[0m  SELECT "ships".* FROM "ships" 
+  Rendered ships/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /ships.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2012-12-17 15:35:38 -0800
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/ships/2/edit" for 127.0.0.1 at 2012-12-17 15:52:21 -0800
+Processing by ShipsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mShip Load (0.2ms)[0m  [1mSELECT "ships".* FROM "ships" WHERE "ships"."id" = 2 LIMIT 1[0m
+  [1m[35mPilot Load (0.2ms)[0m  SELECT "pilots".* FROM "pilots" WHERE "pilots"."ship_id" = 2
+  Rendered ships/_pilots_table.html.erb (1.0ms)
+  Rendered ships/_pilot_fields.html.erb (1.6ms)
+  Rendered ships/_form.html.erb (8.2ms)
+  Rendered ships/edit.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Compiled ships.js  (0ms)  (pid 4529)
+Compiled application.js  (5ms)  (pid 4529)
+Completed 200 OK in 237ms (Views: 235.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.css?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /ships.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ships.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /ships.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-17 15:52:22 -0800
+Served asset /application.js - 304 Not Modified (39ms)

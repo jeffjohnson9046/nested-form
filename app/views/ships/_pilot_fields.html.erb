@@ -33,27 +33,7 @@
     <button id="cancelButton" type="button" class="btn btn-inverse" data-dismiss="modal" aria-hidden="true" title="Close this screen without adding the Pilot to the list.">Cancel</button>
   </div>
 </div>
+
 <script type="text/javascript">
-    $('#addButton').on('click', function() {
-        // Get a handle on the input fields and remove them from the DOM (so we can add them as a table row later).
-        var inputFields = $('#new-pilot-fields .field');
-        inputFields.detach();
-
-        // Create a new row that contains the text controls from the modal window.
-        var newRow = $('<tr class="fields" />');
-        inputFields.map(function () {
-            $(this).removeAttr("class");
-            return $('<td/>').append(this);
-        }).appendTo(newRow);
-
-        // Add the row to the end of the table.
-        newRow.appendTo($('#pilots-table tbody'));
-
-        // Add the "Remove" link to the last cell of the newly created row.
-        var link = $('<a href="#" onclick="remove_fields(this); return false;"><i class="icon-remove"></a>');
-        link.appendTo($("tr:last td:last"));
-
-        // Finally, hide the modal form.
-        $('#new-pilot-fields').modal('hide');
-    });
+  pilotFieldsUI.init();
 </script>
