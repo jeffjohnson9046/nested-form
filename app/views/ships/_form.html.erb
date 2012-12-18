@@ -1,6 +1,7 @@
 <%= form_for(@ship, :html => {:class => "form form-horizontal"}) do |f| %>
     <fieldset>
       <legend><%= "#{ @ship.name } " unless @ship.name.nil?  %>Ship Information</legend>
+      <%= render('error_messages', :object => f.object) %>
       <div class="control-group">
         <%= f.label(:name, :class => "control-label") %>
         <div class="controls">

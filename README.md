@@ -33,16 +33,13 @@ A user can conduct any number of the changes cited above prior to saving, and Ra
 Setup
 -----
 1.  Clone the app locally.
-2.  Run ```rake db:migrate``` to set up the database.
-3.  Run ```rake db:populate``` to seed the database with some sample data.
-4.  Create a new Ship or edit an existing Ship from the list.
-5.  In the Ship Details screen, edit any details.  Also, add/edit/remove any Pilots in the list.
-6.  Save your changes.
-7.  View the Ship that was edited during Step 5.
-8.  Observe all the changes have been saved.
-
-TO-DOs (read: Bugs!)
---------------------
-1.  The Javascript/jQuery for the "Add" button on the modal form is in the .erb file itself - it should probably be moved to ships.js or application.js.
+2.  Run ```bundle install``` to make sure all the required gems are present.
+3.  Run ```rake db:migrate``` to set up the database.
+4.  Run ```rake db:populate``` to seed the database with some sample data.
+5.  Create a new Ship or edit an existing Ship from the list.
+6.  In the Ship Details screen, edit any details.  Also, add/edit/remove any Pilots in the list.
+7.  Save your changes.
+8.  View the Ship that was edited during Step 5.
+9.  Observe all the changes have been saved.
 
 [1]: http://railscasts.com/episodes/197-nested-model-form-part-2

@@ -9,5 +9,7 @@ class CreateShips < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    add_index :ships, :name, { :name => "uix_ships_name", :unique => true }
   end
 end

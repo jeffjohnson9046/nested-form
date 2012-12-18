@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20121212193520) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "pilots", ["call_sign"], :name => "uix_pilots_call_sign", :unique => true
   add_index "pilots", ["ship_id"], :name => "ix_pilots_ships"
 
   create_table "ships", :force => true do |t|
@@ -33,5 +34,7 @@ ActiveRecord::Schema.define(:version => 20121212193520) do
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
   end
+
+  add_index "ships", ["name"], :name => "uix_ships_name", :unique => true
 
 end
