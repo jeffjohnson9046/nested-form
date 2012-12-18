@@ -5,7 +5,7 @@ class ShipsController < ApplicationController
   end
 
   def show
-    @ship = Ship.includes(:pilots).find_by_id(params[:id])
+    @ship = Ship.find_by_id(params[:id])
   end
 
   def new
