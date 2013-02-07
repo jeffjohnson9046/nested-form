@@ -4,16 +4,14 @@
 //  3.  Hide the modal form when the user is done entering data.
 //
 // If any other events need to be wired up, the init function would be the place to put them.
-var pilotFieldsUI = function() {
-    var init = function () {
+var pilotFieldsUI = {
+    init: function() {
         $('#addButton').on('click', function() {
             formHandler.appendFields();
             formHandler.hideForm();
-        })
+        });
     }
-
-    return { init: init }
-}();
+};
 
 // Configuration for the Add/Edit Ship screen's functionality:
 //  formId:  The ID of the <FORM> that contains the input fields that need to be captured and appended to the table of Pilots.
@@ -26,34 +24,32 @@ var cfg = {
     formId: '#new-pilot-fields',
     tableId: '#pilots-table',
     inputFieldClassSelector: '.field',
-    getTBodySelector: function () {
+    getTBodySelector: function() {
         return this.tableId + ' tbody';
     }
 };
 
 // Provides functionality to append new rows to the Pilots table and hide the modal form for adding new Pilots.
 // NOTE:  The "appendFields" function depends on the rowBuilder to handle building the HTML for the new row.
-var formHandler = function () {
-    return {
-        // Public method for adding a new row to the table.
-        appendFields: function () {
-            // Get a handle on all the input fields in the form and detach them from the DOM (we'll attach them later).
-            var inputFields = $(cfg.formId + ' ' + cfg.inputFieldClassSelector);
-            inputFields.detach();
+var formHandler = {
+    // Public method for adding a new row to the table.
+    appendFields: function () {
+        // Get a handle on all the input fields in the form and detach them from the DOM (we'll attach them later).
+        var inputFields = $(cfg.formId + ' ' + cfg.inputFieldClassSelector);
+        inputFields.detach();
 
-            // Build the row and add it to the end of the table.
-            rowBuilder.addRow(cfg.getTBodySelector(), inputFields);
+        // Build the row and add it to the end of the table.
+        rowBuilder.addRow(cfg.getTBodySelector(), inputFields);
 
-            // Add the "Remove" link to the last cell.
-            rowBuilder.link.appendTo($('tr:last td:last'));
-        },
+        // Add the "Remove" link to the last cell.
+        rowBuilder.link.appendTo($('tr:last td:last'));
+    },
 
-        // Public method for hiding the data entry fields.
-        hideForm: function () {
-            $(cfg.formId).modal('hide');
-        }
+    // Public method for hiding the data entry fields.
+    hideForm: function() {
+        $(cfg.formId).modal('hide');
     }
-}();
+};
 
 // Provides functionality for building the HTML that represents a new <TR> for the Pilots table.
 var rowBuilder = function() {
