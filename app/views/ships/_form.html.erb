@@ -1,4 +1,4 @@
-<%= form_for(@ship, :html => {:class => "form form-horizontal"}) do |f| %>
+<%= form_for(@ship, :html => {:class => "form form-horizontal" }) do |f| %>
     <fieldset>
       <legend><%= "#{ @ship.name } " unless @ship.name.nil?  %>Ship Information</legend>
       <%= render('error_messages', :object => f.object) %>
@@ -39,7 +39,7 @@
     </fieldset>
 
     <fieldset>
-      <legend>Pilots <%= "That Fly the  #{ @ship.name }" unless @ship.name.nil? %></legend>
+      <legend>Pilots <%= "That Fly the  #{ @ship.name }" unless @ship.name.blank? %></legend>
       <%= render('pilots_table', :f => f) %>
       <%= link_to_add_fields("Add a Pilot", f, :pilots, :class => "btn btn-primary", :title => "Add a new Pilot to the list of Pilots that fly this Ship.") %>
       <p></p>

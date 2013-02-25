@@ -9,7 +9,7 @@ class Pilot < ActiveRecord::Base
   validates :last_name,
             :presence => true,
             :length => { :maximum => 50 }
-  
+
   validates :call_sign,
             :presence => true,
             :uniqueness => { :case_sensitive => false },

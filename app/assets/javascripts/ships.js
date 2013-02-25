@@ -6,7 +6,27 @@
 // If any other events need to be wired up, the init function would be the place to put them.
 var pilotFieldsUI = {
     init: function() {
-        $('#addButton').on('click', function() {
+        // Configuration for the jQuery validator plugin:
+        // Set the error messages to appear under the element that has the error.  By default, the
+        // errors appear in the all-too-familiar bulleted-list.
+        // Other configuration options can be seen here:  https://github.com/victorjonsson/jQuery-Form-Validator
+        var validationSettings = {
+            errorMessagePosition : 'element'
+        };
+
+        // Run validation on an input element when it loses focus.
+        $('#new-pilot-fields').validateOnBlur();
+
+        $('#addButton').on('click', function(e) {
+            // If the form validation on our Pilots modal "form" fails, stop everything and prompt the user
+            // to fix the issues.
+            var isValid = $('#new-pilot-fields').validate(false, validationSettings);
+            if(!isValid) {
+                e.stopPropagation();
+
+                return false;
+            }
+
             formHandler.appendFields();
             formHandler.hideForm();
         });

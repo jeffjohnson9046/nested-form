@@ -4,8 +4,10 @@ class Ship < ActiveRecord::Base
 
   has_many :pilots
   accepts_nested_attributes_for :pilots,
-                                :reject_if => lambda { |attrs| attrs.all? { |key, value| value.blank? } },
+                                :reject_if => :all_blank,
                                 :allow_destroy => true
+
+  validates_associated :pilots
 
   validates :name,
             :presence => true,

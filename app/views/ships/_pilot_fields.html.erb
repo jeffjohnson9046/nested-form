@@ -8,21 +8,21 @@
       <div class="control-group">
         <%= f.label(:first_name, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:first_name, :class => "input-xlarge field") %>
+          <%= f.text_field(:first_name, :class => "input-xlarge field", :data => { :validation => "required validate_max_length length50", "validation-error-msg" => "First Name is required and cannot be longer than 50 characters." }) %>
         </div>
       </div>
 
       <div class="control-group">
         <%= f.label(:last_name, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:last_name, :class => "input-xlarge field") %>
+          <%= f.text_field(:last_name, :class => "input-xlarge field", :data => { :validation => "required validate_max_length length50", "validation-error-msg" => "Last Name is required and cannot be longer than 50 characters." }) %>
         </div>
       </div>
 
       <div class="control-group">
         <%= f.label(:call_sign, :class => "control-label") %>
         <div class="controls">
-          <%= f.text_field(:call_sign, :class => "input-xlarge field") %>
+          <%= f.text_field(:call_sign, :class => "input-xlarge field", :data => { :validation => "required validate_length length5-50", "validation-error-msg" => "Call Sign is required and cannot be must be between 5 and 50 characters." }) %>
         </div>
       </div>
       <%= f.hidden_field(:_destroy, :class => "field") %>
