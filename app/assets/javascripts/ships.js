@@ -62,7 +62,7 @@ var formHandler = {
         rowBuilder.addRow(cfg.getTBodySelector(), inputFields);
 
         // Add the "Remove" link to the last cell.
-        rowBuilder.link.appendTo($('tr:last td:last'));
+        rowBuilder.link.clone().appendTo($('tr:last td:last'));
     },
 
     // Public method for hiding the data entry fields.
@@ -89,8 +89,9 @@ var rowBuilder = function() {
 
         $(fields).map(function() {
             $(this).removeAttr('class');
-            return $('<td/>').append($(this));
-        }).appendTo(newRow);
+            var td = $('<td/>').append($(this));
+            td.appendTo(newRow);
+        });
 
         return newRow;
     }
