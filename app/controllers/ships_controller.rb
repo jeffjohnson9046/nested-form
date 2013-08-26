@@ -1,11 +1,11 @@
 class ShipsController < ApplicationController
+  before_action :set_ship, only: [:show, :edit, :update, :destroy]
 
   def index
     @ships = Ship.all
   end
 
   def show
-    @ship = Ship.find_by_id(params[:id])
   end
 
   def new
@@ -13,7 +13,7 @@ class ShipsController < ApplicationController
   end
 
   def create
-    @ship = Ship.new(params[:ship])
+    @ship = Ship.new(ship_params)
 
     if @ship.save
       flash[:notice] = "The <b>#{ @ship.name }</b> ship has been saved successfully."
@@ -24,13 +24,10 @@ class ShipsController < ApplicationController
   end
 
   def edit
-    @ship = Ship.find_by_id(params[:id])
   end
 
   def update
-    @ship = Ship.find_by_id(params[:id])
-
-    if @ship.update_attributes(params[:ship])
+    if @ship.update(ship_params)
       redirect_to(ships_path, :notice => "The <b>#{ @ship.name }</b> ship has been updated successfully.")
     else
       render(:edit, :error => @ship.errors)
@@ -38,12 +35,23 @@ class ShipsController < ApplicationController
   end
 
   def destroy
-    @ship = Ship.find(params[:id])
-
     if @ship.destroy
       redirect_to(ships_path, :notice => "The <b>#{ @ship.name }</b> and its associated Pilots have been deleted successfully.")
     else
       redirect_to(ships_path, :notice => "The <b>#{ @ship.name }</b> could not be deleted.")
     end
   end
+  
+   private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_ship
+      @ship = Ship.find(params[:id])
+    end
+    
+    # Before filters
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def ship_params
+      params.require(:ship).permit(:name, :crew, :has_astromech, :speed, :armament, pilots_attributes: [:id, :first_name, :last_name, :call_sign, :ship_id])
+    end
 end
